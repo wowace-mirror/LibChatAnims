@@ -3,8 +3,8 @@ local MAJOR, MINOR = "LibChatAnims", 1 -- Bump minor on changes
 local LCA, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
 if not LCA then return end -- No upgrade needed
 
-LCA.anims = LCA.anims or {} -- Animation storage
-local anims = LCA.anims
+LCA.animations = LCA.animations or {} -- Animation storage
+local anims = LCA.animations
 
 ----------------------------------------------------
 -- Note, most of this code is simply replicated from
